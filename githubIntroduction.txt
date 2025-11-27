@@ -1,0 +1,37 @@
+When we want to make changes from git to Github we have to first specify git from which Email and from which Github Account we have to make changes.
+
+Changes has to made in Git Bash
+For username:  git config --global user.name TejasGokhale1000
+For email:  git config --global user.email gokhaletejas034@gmail.com
+
+to check changes are made: git config --list
+----------------------------------------------------------------------------------------------------------------------------------
+
+Clone and Status in Git
+
+Clone: Cloning a repository on our local machine.
+Syntax: git clone <url> for repository to clone>
+
+cd: change directory.
+ls: used to see all list of files.
+-a: used to see list of hidden files.
+git status: used to check the status of git, there are types of status
+
+1.UnModified: No-changes/ no changes
+2.Modified: changes has been made.
+3.Untracked: New files that git dosen't yet track
+4.Staged: File is ready to commit.
+
+
+If we want to add anyfile in our github through git we have to use.
+git add index.html
+
+git commit: It is the record of change
+syntax: git commit -m "some meassage"
+
+push: upload local repo content to remote repo
+syntax: git push origin main 
+
+We can use cd .. to move to previous directory.
+
+We can make new directory using syntax: mkdir LocalRepo
