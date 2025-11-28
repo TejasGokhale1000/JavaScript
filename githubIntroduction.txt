@@ -32,6 +32,41 @@ syntax: git commit -m "some meassage"
 push: upload local repo content to remote repo
 syntax: git push origin main 
 
+----------------------------------------------------------------------------------------------------------------------------------
+
 We can use cd .. to move to previous directory.
 
-We can make new directory using syntax: mkdir LocalRepo
+----------------------------------------------------------------------------------------------------------------------------------
+
+Date: 28-11-25 Time: 12:09
+
+1. Init Command: Used to create a new git repo
+syntax: git init
+
+2. We can make new directory
+syntax: mkdir "directory name"
+
+3. We can see the hidden files in git using
+syntax: ls -Force
+
+4. To add files in git we can also use
+syntax: git add .
+
+5. To add our local Repo to github ehich is a remote repository we use
+syntax: git remote add origin <link> | "Link means link from github repository that we have created which has Quick setup link."
+
+6. To verify remote we use
+syntax: git remote -v
+
+7. To verify on which branch we are on, we use
+syntax: git branch
+
+8. To change the branch name
+syntax: git branch -m <new name of branch>
+
+9. If we have to work on same repository continiously, we can use a statement that can be preferable than "git push origin main" that is
+syntax: git push -u origin main
+
+
+
+
